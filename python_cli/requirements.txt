@@ -1,0 +1,6 @@
+sqlalchemy>=2.0
+# Snowflake support (installs snowflake-connector-python automatically):
+snowflake-sqlalchemy>=1.5
+# Uncomment the driver you need for other engines:
+# psycopg2-binary          # PostgreSQL
+# pyodbc                    # SQL Server (also needs the MS ODBC Driver installed)
